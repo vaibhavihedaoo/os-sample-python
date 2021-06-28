@@ -1,7 +1,7 @@
 from flask import Flask
 import os
 from flask import jsonify, request, Flask
-from flaskext.mysql import MySQL
+import MySQL
 
 app = Flask(__name__)
 
